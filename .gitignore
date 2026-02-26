@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+
+# SQLite (dev only databases)
+*.sqlite3
+*.db
+gradeup_demo.db
+
+# Logs
+*.log
+logs/
+uvicorn.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Test
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+
+# Uploads (user-generated content)
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+
+# OS
+.DS_Store
+*.tmp
